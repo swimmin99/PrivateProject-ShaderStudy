@@ -15,13 +15,12 @@
 ```
   
 <div align="center">
-   
-  
+<br>
   
   ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=ebf3f5&text=DEV%20SCHEDULE&fontColor=000000&fontSize=15)
 
   
-  ---
+ 
 |날짜|차시|로그|참고자료(Credits)|코드|
 |---|---------|---------|----|-----|
 |2023-01-21|1-1|waterPhysics| [shaderManipulation1](https://catlikecoding.com/unity/tutorials/flow/waves/) <br> [meshManipulation](https://www.youtube.com/watch?v=_Ij24zRI9J0) <br> [buoyancy](https://www.youtube.com/watch?v=iasDPyC0QOg&t=496s)|[WaterShaderGraph](https://github.com/swimmin99/PrivateProject-ShaderStudy/blob/main/UnbendedWater%201.shadergraph) <br> [OceanManager C#](https://github.com/swimmin99/PrivateProject-ShaderStudy/blob/main/OceanManager.cs)|
@@ -32,6 +31,7 @@
 |2023-02-01|3|Bending Shader|[Curved World Shader Shader Graph](https://www.youtube.com/watch?v=UoK7VRs3tfo) <br> [World Bending](https://www.youtube.com/watch?v=SOK3Ias5Nk0&t=87s)|[BendedWaterShaderGraph](https://github.com/swimmin99/PrivateProject-ShaderStudy/blob/main/BendedWater.shadergraph)|
  
   
+  <br>
   
   ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=ebf3f5&text=DEV%20LOG&fontColor=000000&fontSize=15)
 
