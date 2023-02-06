@@ -3,10 +3,19 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=auto&text=Shader%20Study%20Study&fontColor=ffffff)
 ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=ebf3f5&text=UNITY&fontColor=000000&fontSize=20)
 ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=ebf3f5&text=2022.1.20~2022.2.01&fontColor=000000&fontSize=15)
+  
+<div align="left">
+
 ```
-📌최종 목표 : 쉐이더 그래프를 사용하여 실감 넘치는 물결치는 파도를 구현
+  📌  최종 목표 : 쉐이더 그래프를 사용하여 실감 넘치는 물결치는 파도를 구현
+  ☑️  유형 : 개인 프로젝트
+  ☑️  사용 기술 : C#, 유니티 URP 쉐이더 그래프
+  💡  기대 : 쉐이더의 대략적인 사용법 이해, 부력을 코드로 표현해보기
+  💔  예상 장애 요소 : 쉐이더 그래프 사용법 지식의 부족, 참고자료의 설명 부족
 ```
   
+<div align="center">
+   
   ---
 |날짜|구분|로그|참고자료|
 |---|---------|---------|----|
@@ -84,8 +93,11 @@
 
 
   <img src ="https://user-images.githubusercontent.com/109887066/216978543-a39f7c5b-b95e-4b9c-b4de-ea2ee5afd1db.png"  width="75%" height="75%"/>
-<br> ```완성된 쉐이더 그래프의 모습```<br><br>
-  
+     
+ ```완성된 쉐이더 그래프의 모습```
+
+ <div align="left">
+   
   ```
 💡발전한 점
 1.View에 따라 다르게 계산되는 Depth를 이용하는 방법을 알게 됨.
@@ -122,6 +134,7 @@
 
   ```최종 쉐이더 그래프```
 
+     
 <div align="left">
   
 ```
@@ -129,9 +142,23 @@
 1.이전 보다 쉐이더 그래프의 세부 노드에 대한 이해도가 증가함.
 2.Import한 3D 모델이 FBX 형식일 경우에 material과 texture을 따로 Extract 하여 쉐이더를 적용해야 한다는 사실을 배움.
 📝앞으로의 방향
-1.Shader Graph를 사용하는 다른 Shader와 새로운 Shader를 합치는 방식은 이해하였으나 합치려는 쉐이더의 종류가 다른 경우 (URP Lit Shader/Legacy Surface Shader/HDRP Shader)일 경우에는 어려움. 이에 대한 자료를 더 찾아볼 것.
+1.Shader Graph를 사용하는 다른 Shader와 새로운 Shader를 합치는 방식은 이해하였으나 
+  합치려는 쉐이더의 종류가 다른 경우 (URP Lit Shader/Legacy Surface Shader/HDRP Shader)일 경우에는 어려움. 
+  이에 대한 자료를 더 찾아볼 것.
 ```
   
 ---
+
+    
+```
+💡느낀점 : 유니티가 제공하는 URP 쉐이더 그래프는 실로 강력한 툴이다. 
+  그러나 라이팅과 물리 법칙들을 쉐이더로 구현하기 위해서는 수학에 대한 지식을 더 쌓아야 할 것으로 보인다. 
+  또한 부력을 표현하기 위해 사용하였던 스크립트를 완벽하게 소화해 낸 것 같지 않다. 
+  따라서 해당 부분을 복습하고 나의 입맛대로 고치면서 친해질 필요가 있다. 
+  배에 물이 차는 것을 방지하는 Depth Mask의 경우 일반 View는 적용시켰지만 World Bending 물 쉐이더에 적용시키지 못하였다. 
+  해당 문제를 해결하기 위해서는 쉐이더 그래프를 사용하지 않고 스크립트를 통해 쉐이더를 적용시키는 법 또한 배워야 할 것으로 보인다.
+  
+  다음 스텝 : 3D 그래픽과 관련된 수학 서적 읽기, 스크립트 손보기
+```
   
 
