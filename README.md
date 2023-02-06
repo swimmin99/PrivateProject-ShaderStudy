@@ -12,6 +12,11 @@
   ☑️  사용 기술 : C#, 유니티 URP 렌더 파이프라인
   💡  기대 : 쉐이더의 대략적인 사용법 이해, 부력을 코드로 표현해보기
   💔  예상 장애 요소 : 쉐이더 그래프 사용법 지식의 부족, 참고자료의 설명 부족
+ 
+  Objective : Create immersive realistic wave using URP shader graph with unity
+  Private Project, using C# and Unity URP Rendere Pipeline
+  Might be able to understand brief techniques of how to use shader graph and express buyoancy with C# script/
+  Might bump in to obstacles due to lack of understanding of shadergraph or struggle from lack of explanation in tutorials.
 ```
   
 <div align="center">
@@ -167,7 +172,13 @@
   배에 물이 차는 것을 방지하는 Depth Mask의 경우 일반 View는 적용시켰지만 World Bending 물 쉐이더에 적용시키지 못하였다. 
   해당 문제를 해결하기 위해서는 쉐이더 그래프를 사용하지 않고 스크립트를 통해 쉐이더를 적용시키는 법 또한 배워야 할 것으로 보인다.
   
+  Overall : URP Shader Graph is a powerful tool for creating a realistic 3d effects.
+  However lighting and Physics part demands deeper understanding in math.
+  Thus, haven't fully comprehended buyoancy script (FloatingObjects C#) yet.
+  Haven't figure out how to combine bended water shader with depth mask shader since its based on totally different shader.
+  
   다음 스텝 : 3D 그래픽과 관련된 수학 서적 읽기, 스크립트 손보기
+  Next step would be peeping through math lecture and books in library and review my scripts and work more on shader.
 ```
   
 
