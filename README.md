@@ -7,7 +7,7 @@
 ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=ebf3f5&text=UNITY&fontColor=000000&fontSize=20)
 
   ---
-|날짜|로그|자료|
+|날짜|로그|참고자료|
 |---|---------|----|
 |2023-01-21|waterPhysics| [shaderManipulation1](https://catlikecoding.com/unity/tutorials/flow/waves/) /[meshManipulation](https://www.youtube.com/watch?v=_Ij24zRI9J0) / [buoyancy](https://www.youtube.com/watch?v=iasDPyC0QOg&t=496s)|
 |2022-01-28|FoamShader and Texture Redone|[FoamShader1](https://www.youtube.com/watch?v=MHdDUqJHJxM&t=464s) / [FoamShader2](https://www.youtube.com/watch?v=MHdDUqJHJxM&t=464s)|
