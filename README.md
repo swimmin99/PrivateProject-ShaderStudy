@@ -17,14 +17,14 @@
 <div align="center">
    
   ---
-|날짜|구분|로그|참고자료(Credits)|코드|
+|날짜|차시|로그|참고자료(Credits)|코드|
 |---|---------|---------|----|-----|
-|2023-01-21|쉐이더 스터디1|waterPhysics| [shaderManipulation1](https://catlikecoding.com/unity/tutorials/flow/waves/) <br> [meshManipulation](https://www.youtube.com/watch?v=_Ij24zRI9J0) <br> [buoyancy](https://www.youtube.com/watch?v=iasDPyC0QOg&t=496s)|[WaterShaderGraph](https://github.com/swimmin99/PrivateProject-ShaderStudy/blob/main/UnbendedWater%201.shadergraph) <br> [OceanManager C#](https://github.com/swimmin99/PrivateProject-ShaderStudy/blob/main/OceanManager.cs)|
-|2022-01-28|쉐이더 스터디1 - 2|FoamShader and Texture Redone|[FoamShader1](https://www.youtube.com/watch?v=MHdDUqJHJxM&t=464s) <br> [FoamShader2](https://www.youtube.com/watch?v=MHdDUqJHJxM&t=464s)||
-|2022-01-29|쉐이더 스터디1 - 3|PlayerController||[OceanFollow(C#)](https://github.com/swimmin99/PrivateProject-ShaderStudy/blob/main/OceanPlayerFollow.cs) <br> [PlayerMove](https://github.com/swimmin99/PrivateProject-ShaderStudy/blob/main/PlayerMove.cs)|
-|2023-01-30|쉐이더 스터디1 - 4|DepthMask&&BoatController|[DepthMask](https://web.archive.org/web/20210831213650/http://wiki.unity3d.com:80/index.php/DepthMask)||
-|2023-01-31|쉐이더 스터디2|Orthographic Camera|[Orthographic Depth Calc](https://twitter.com/cyanilux/status/1169932943869059073?lang=en)||
-|2023-02-01|쉐이더 스터디3|Bending Shader|[Curved World Shader Shader Graph](https://www.youtube.com/watch?v=UoK7VRs3tfo) <br> [World Bending](https://www.youtube.com/watch?v=SOK3Ias5Nk0&t=87s)|[BendedWaterShaderGraph](https://github.com/swimmin99/PrivateProject-ShaderStudy/blob/main/BendedWater.shadergraph)|
+|2023-01-21|1-1|waterPhysics| [shaderManipulation1](https://catlikecoding.com/unity/tutorials/flow/waves/) <br> [meshManipulation](https://www.youtube.com/watch?v=_Ij24zRI9J0) <br> [buoyancy](https://www.youtube.com/watch?v=iasDPyC0QOg&t=496s)|[WaterShaderGraph](https://github.com/swimmin99/PrivateProject-ShaderStudy/blob/main/UnbendedWater%201.shadergraph) <br> [OceanManager C#](https://github.com/swimmin99/PrivateProject-ShaderStudy/blob/main/OceanManager.cs)|
+|2022-01-28|1 - 2|FoamShader and Texture Redone|[FoamShader1](https://www.youtube.com/watch?v=MHdDUqJHJxM&t=464s) <br> [FoamShader2](https://www.youtube.com/watch?v=MHdDUqJHJxM&t=464s)||
+|2022-01-29|1 - 3|PlayerController||[OceanFollow(C#)](https://github.com/swimmin99/PrivateProject-ShaderStudy/blob/main/OceanPlayerFollow.cs) <br> [PlayerMove](https://github.com/swimmin99/PrivateProject-ShaderStudy/blob/main/PlayerMove.cs)|
+|2023-01-30|1 - 4|DepthMask&&BoatController|[DepthMask](https://web.archive.org/web/20210831213650/http://wiki.unity3d.com:80/index.php/DepthMask)||
+|2023-01-31|2|Orthographic Camera|[Orthographic Depth Calc](https://twitter.com/cyanilux/status/1169932943869059073?lang=en)||
+|2023-02-01|3|Bending Shader|[Curved World Shader Shader Graph](https://www.youtube.com/watch?v=UoK7VRs3tfo) <br> [World Bending](https://www.youtube.com/watch?v=SOK3Ias5Nk0&t=87s)|[BendedWaterShaderGraph](https://github.com/swimmin99/PrivateProject-ShaderStudy/blob/main/BendedWater.shadergraph)|
  
 
 ---
