@@ -22,6 +22,7 @@
 <div align="left">
 
 <u><strong>쉐이더 스터디1 (Shader Study 1)</strong></u>
+  
 
 ```
 📌목표 : 쉐이더 그래프를 사용하여 물결치는 파도를 구현.
@@ -30,8 +31,27 @@
 세부목표3 : 물 위에 뜬 물체의 경우 Foam(거품)이 생기는 효과를 쉐이더로 구현할 것.
 ```
 
-  <div align="center">
-  <img src ="https://user-images.githubusercontent.com/109887066/216976847-f30eba03-0895-40c4-95e7-8a940ff507a2.png"  width="75%" height="75%"/>
+  
+<div align="center">
+  <img src ="https://user-images.githubusercontent.com/109887066/216982077-fa823f73-ac51-4242-a5da-9ad5355b239b.png" width="70%" height="70%"/>
+  
+```시도1 : 물결의 그래픽 적인 부분만 구현한 모습```
+  
+  <img src ="https://user-images.githubusercontent.com/109887066/216984447-1218c658-899c-43d6-a8f1-da94ce68766d.gif" width="30%" height="30%"/>
+
+  ```시도2 : 간단한 물체 부력 테스트```
+  
+   <img src ="https://user-images.githubusercontent.com/109887066/216985735-af88be11-deac-480f-b3f4-d9ce75399afd.gif" width="30%" height="30%"/>
+
+  ```시도3 : 물체의 물에 잠긴 부분에 Foam 효과를 추가한 모습```<br> 
+    <img src ="https://user-images.githubusercontent.com/109887066/216986154-96ab24ec-b816-4c5e-b422-b5679df2e338.gif" width="35%" height="35%"/>
+
+  ```시도4 : 물 위에서 이동하는 물체```
+  
+  <img src ="https://user-images.githubusercontent.com/109887066/216976847-f30eba03-0895-40c4-95e7-8a940ff507a2.png"  width="70%" height="70%"/>
+
+  ```완성된 쉐이더 그래프```
+
 <div align="left">
 
 
@@ -47,22 +67,23 @@
   
 
 ---
-
-  
----
 </div>
 <div align="left">
 
 <u><strong>쉐이더 스터디2 (Shader Study 2)</strong></u>
 
 ```
-📌목표 : Orthographic 카메라 뷰에서 사용가능한 물 쉐이더를 만든다.<br>
-세부목표 : ScreenDepth를 Perspective View 카메라와 동일하게 사용할 수 없기에 새로운 방법을 찾는다.<br>
+📌목표 : Orthographic 카메라 뷰에서 사용가능한 물 쉐이더를 만든다.
+세부목표 : ScreenDepth를 Perspective View 카메라와 동일하게 사용할 수 없기에 새로운 방법을 찾는다.
 ```
+   <div align="center"> 
+   <img src ="https://user-images.githubusercontent.com/109887066/216987145-ad6f8b6f-9550-489a-8632-56ac7d76f387.gif" width="40%" height="40%"/>  
 
-  <div align="center">
+  ```Orthographic Camera View로 구현한 물 쉐이더```
+
+
   <img src ="https://user-images.githubusercontent.com/109887066/216978543-a39f7c5b-b95e-4b9c-b4de-ea2ee5afd1db.png"  width="75%" height="75%"/>
-<div align="left">
+<br> ```완성된 쉐이더 그래프의 모습```<br><br>
   
   ```
 💡발전한 점
@@ -86,10 +107,18 @@
 세부목표2 : 해당 그래프를 서브 그래프화 시킨다.
 세부목표3 : 해당 그래프를 이전에 구현한 물 쉐이더와 합체 시킨다.
 ```
-  
-  <div align="center">
+   <div align="center"> 
+   <img src ="https://user-images.githubusercontent.com/109887066/216990234-f97ea8c3-3393-466a-8230-92a43c8b6b5e.gif" width="40%" height="40%"/>  
+
+  ```World Bending 효과를 추가한 물 쉐이더```
+
+
   <img src ="https://user-images.githubusercontent.com/109887066/216978837-42eaeabc-e0a7-4ec7-ba0a-6e453aeee2c9.png"  width="75%" height="75%"/>
+  ```참고한 식 출처 : https://www.youtube.com/watch?v=UoK7VRs3tfo```
+
   <img src ="https://user-images.githubusercontent.com/109887066/216978984-044a594c-4673-4d5f-ba70-865357b4ff41.png"  width="75%" height="75%"/>
+
+  ```최종 쉐이더 그래프```
 
 <div align="left">
   
