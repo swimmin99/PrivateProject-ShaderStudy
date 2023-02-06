@@ -7,14 +7,14 @@
 ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=ebf3f5&text=UNITY&fontColor=000000&fontSize=20)
 
   ---
-|날짜|로그|참고자료|
-|---|---------|----|
-|2023-01-21|waterPhysics| [shaderManipulation1](https://catlikecoding.com/unity/tutorials/flow/waves/) /[meshManipulation](https://www.youtube.com/watch?v=_Ij24zRI9J0) / [buoyancy](https://www.youtube.com/watch?v=iasDPyC0QOg&t=496s)|
-|2022-01-28|FoamShader and Texture Redone|[FoamShader1](https://www.youtube.com/watch?v=MHdDUqJHJxM&t=464s) / [FoamShader2](https://www.youtube.com/watch?v=MHdDUqJHJxM&t=464s)|
-|2022-01-29|PlayerController&BuildingGenerator|[ProceduralMouduleBuilding](https://www.youtube.com/watch?v=EWnLKpkJzVQ)|
-|2023-01-30|DepthMask&&BoatController|[DepthMask](https://web.archive.org/web/20210831213650/http://wiki.unity3d.com:80/index.php/DepthMask)|
-|2023-01-31|Orthographic Camera|[Orthographic Depth Calc](https://twitter.com/cyanilux/status/1169932943869059073?lang=en)|
-|2023-02-01|Bending Shader|[Curved World Shader Using Shader Graph](https://www.youtube.com/watch?v=UoK7VRs3tfo) / [World Bending](https://www.youtube.com/watch?v=SOK3Ias5Nk0&t=87s)|
+|날짜|구분|로그|참고자료|
+|---|---------|---------|----|
+|2023-01-21|쉐이더 스터디1|waterPhysics| [shaderManipulation1](https://catlikecoding.com/unity/tutorials/flow/waves/) /[meshManipulation](https://www.youtube.com/watch?v=_Ij24zRI9J0) / [buoyancy](https://www.youtube.com/watch?v=iasDPyC0QOg&t=496s)|
+|2022-01-28|쉐이더 스터디1 - 2|FoamShader and Texture Redone|[FoamShader1](https://www.youtube.com/watch?v=MHdDUqJHJxM&t=464s) / [FoamShader2](https://www.youtube.com/watch?v=MHdDUqJHJxM&t=464s)|
+|2022-01-29|쉐이더 스터디1 - 3|PlayerController&BuildingGenerator|[ProceduralMouduleBuilding](https://www.youtube.com/watch?v=EWnLKpkJzVQ)|
+|2023-01-30|쉐이더 스터디1 - 4|DepthMask&&BoatController|[DepthMask](https://web.archive.org/web/20210831213650/http://wiki.unity3d.com:80/index.php/DepthMask)|
+|2023-01-31|쉐이더 스터디2|Orthographic Camera|[Orthographic Depth Calc](https://twitter.com/cyanilux/status/1169932943869059073?lang=en)|
+|2023-02-01|쉐이더 스터디3|Bending Shader|[Curved World Shader Using Shader Graph](https://www.youtube.com/watch?v=UoK7VRs3tfo) / [World Bending](https://www.youtube.com/watch?v=SOK3Ias5Nk0&t=87s)|
  
 
 ---
@@ -114,7 +114,8 @@
 
 
   <img src ="https://user-images.githubusercontent.com/109887066/216978837-42eaeabc-e0a7-4ec7-ba0a-6e453aeee2c9.png"  width="75%" height="75%"/>
-  ```참고한 식 출처 : https://www.youtube.com/watch?v=UoK7VRs3tfo```
+     
+  ```참고한 식 출처 : [Youtube](https://www.youtube.com/watch?v=UoK7VRs3tfo)```
 
   <img src ="https://user-images.githubusercontent.com/109887066/216978984-044a594c-4673-4d5f-ba70-865357b4ff41.png"  width="75%" height="75%"/>
 
@@ -124,10 +125,10 @@
   
 ```
 💡발전한 점
-1.	이전 보다 쉐이더 그래프의 세부 노드에 대한 이해도가 증가함.
-2.	Import한 3D 모델이 FBX 형식일 경우에 material과 texture을 따로 Extract 하여 쉐이더를 적용해야 한다는 사실을 배움.
+1.이전 보다 쉐이더 그래프의 세부 노드에 대한 이해도가 증가함.
+2.Import한 3D 모델이 FBX 형식일 경우에 material과 texture을 따로 Extract 하여 쉐이더를 적용해야 한다는 사실을 배움.
 📝앞으로의 방향
-1.	Shader Graph를 사용하는 다른 Shader와 새로운 Shader를 합치는 방식은 이해하였으나 합치려는 쉐이더의 종류가 다른 경우 (URP Lit Shader/Legacy Surface Shader/HDRP Shader)일 경우에는 어려움. 이에 대한 자료를 더 찾아볼 것.
+1.Shader Graph를 사용하는 다른 Shader와 새로운 Shader를 합치는 방식은 이해하였으나 합치려는 쉐이더의 종류가 다른 경우 (URP Lit Shader/Legacy Surface Shader/HDRP Shader)일 경우에는 어려움. 이에 대한 자료를 더 찾아볼 것.
 ```
   
 ---
