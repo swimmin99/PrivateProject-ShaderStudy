@@ -1,10 +1,12 @@
-# PrivateProject-ShaderStudy
-목표 : 쉐이더 그래프를 사용하여 물결치는 파도를 구현
-
 <div align="center">
+  
+![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=00ffff&text=Shaer%20Study%20Study&fontColor=ffffff)
 ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=ebf3f5&text=UNITY&fontColor=000000&fontSize=20)
 ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=ebf3f5&text=2022.1.20~2022.2.01&fontColor=000000&fontSize=15)
-
+```
+📌최종 목표 : 쉐이더 그래프를 사용하여 실감 넘치는 물결치는 파도를 구현
+```
+  
   ---
 |날짜|구분|로그|참고자료|
 |---|---------|---------|----|
