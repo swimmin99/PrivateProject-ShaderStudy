@@ -2,8 +2,6 @@
 목표 : 쉐이더 그래프를 사용하여 물결치는 파도를 구현
 
 <div align="center">
-  
-![header](https://capsule-render.vercel.app/api?type=rect&color=auto&height=100&section=header&text=Shader%20Graphic%20Projects&fontSize=30&fontAlign=20&textBg=true)
 ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=ebf3f5&text=UNITY&fontColor=000000&fontSize=20)
 ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=ebf3f5&text=2022.1.20~2022.2.01&fontColor=000000&fontSize=15)
 
