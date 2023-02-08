@@ -2,7 +2,7 @@
   
 ![header](https://capsule-render.vercel.app/api?type=waving&height=250&color=auto&text=Shader%20Study&fontColor=auto)
 ![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=ebf3f5&text=UNITY&fontColor=000000&fontSize=20)
-![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=ebf3f5&text=2022.1.20~2022.2.01&fontColor=000000&fontSize=15)
+![header](https://capsule-render.vercel.app/api?type=rect&height=50&color=ebf3f5&text=2022.1.20~&fontColor=000000&fontSize=15)
   
 <div align="left">
 
@@ -171,6 +171,8 @@
   따라서 해당 부분을 복습하고 나의 입맛대로 고치면서 친해질 필요가 있다. 
   배에 물이 차는 것을 방지하는 Depth Mask의 경우 일반 View는 적용시켰지만 World Bending 물 쉐이더에 적용시키지 못하였다. 
   해당 문제를 해결하기 위해서는 쉐이더 그래프를 사용하지 않고 스크립트를 통해 쉐이더를 적용시키는 법 또한 배워야 할 것으로 보인다.
+  
+  또한 아직 몇가지 문제가 해결되지 않았기에 추후 프로젝트에 시간을 더 투입해 완성해 나가야 할 것으로 보인다.
   
   Overall : URP Shader Graph is a powerful tool for creating a realistic 3d effects.
   However lighting and Physics part demands deeper understanding in math.
