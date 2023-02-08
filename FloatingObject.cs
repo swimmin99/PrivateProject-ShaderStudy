@@ -1,8 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
-///[RequireComponent(typeof(Rigidbody))]
-
+[RequireComponent(typeof(Rigidbody))]
 
 public class FloatingObject : MonoBehaviour
 {
@@ -14,10 +14,11 @@ public class FloatingObject : MonoBehaviour
     public float airDrag = 0f;
     public float airAngularDrag = 0.05f;
     public float floatingPower = 15f;
+    public TextMeshProUGUI text;
 
     OceanManager oceanManager;
 
-    private Rigidbody thisRigidbody;
+    public Rigidbody thisRigidbody;
 
     int floatersUnderWater;
 
@@ -26,7 +27,6 @@ public class FloatingObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        thisRigidbody = GetComponent<Rigidbody>();
         oceanManager = FindObjectOfType<OceanManager>();
     }
 
@@ -38,7 +38,9 @@ public class FloatingObject : MonoBehaviour
         {
            // float difference = floaters[i].position.y - 0f;
               float difference = floaters[i].position.y - oceanManager.WaterHeightAtPosition(floaters[i].position);
-          //  print(i + ":" + oceanManager.WaterHeightAtPosition(floaters[i].position));
+            text.SetText("value" + difference);
+
+            //  print(i + ":" + oceanManager.WaterHeightAtPosition(floaters[i].position));
             if (difference < 0)
             {
                 thisRigidbody.AddForceAtPosition(Vector3.up * floatingPower * Mathf.Abs(difference), floaters[i].position, ForceMode.Force);
